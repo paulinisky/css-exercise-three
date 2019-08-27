@@ -25,7 +25,7 @@ body {
   padding-right: 20px;
   padding-top: 20px;
   padding-bottom: 0;
-  width: 380px;
+  width: 90.48%;
   line-height: 1.5;
 }
 
@@ -62,5 +62,13 @@ nav {
   padding-right: 20px;
   padding-bottom: 30px;
   padding-top: 30px;
-  width: 15px;
+  width: 3.57%;
+}
+
+.location {
+  border-bottom: 1px solid #000000;
+}
+
+location:hover {
+  color: #3a3a3a;
 }
