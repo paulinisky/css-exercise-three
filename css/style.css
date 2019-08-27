@@ -10,11 +10,21 @@ body {
 
 .content h1 {
   font-size: 1.5em;
+  font-weight: bold;
   color: #000000;
+  box-sizing: border-box;
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 0;
 }
 
 .content h3 {
   color: #000000;
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .container {
@@ -23,6 +33,7 @@ body {
   border: 50px;
   background: #dfdfe1;
   display: block;
+  box-sizing: border-box;
 }
 
 nav {
@@ -31,17 +42,22 @@ nav {
   position: fixed;
   width: 420px;
   margin: 0;
-  border: 50px;
+  border: none;
   background: #000000;
+  box-sizing: border-box;
 }
 
 .restaurant-list {
   padding-top: 50px;
   width: 420px;
   margin: auto;
-  border: 5px;
+  box-sizing: border-box;
 }
 
 .arrow {
   color: #000000;
+  box-sizing: border-box;
+  float: right;
+  padding-right: 20px;
+  padding-bottom: 30px;
 }
